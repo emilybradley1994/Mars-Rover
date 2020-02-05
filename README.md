@@ -14,7 +14,7 @@ Assume that the square directly North from (x, y) is (x, y+1).
 
  
 
-*<h1>*Input:</h1>** 
+**<h1>Input:</h1>** 
 
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have been deployed. Each rover has two lines of input. The first line gives the rover’s position, and the second line is a series of instructions telling the rover how to explore the plateau.
@@ -24,9 +24,9 @@ Output: The output for each rover should be its final co-ordinates and heading.
 
  
 
-*<h2>*Input and Output</h2>**
+**<h2>Input and Output</h2>**
 
-*<h3>Test Input:</h3>*
+**<h3>Test Input:</h3>**
 
 5 5
 
@@ -40,7 +40,7 @@ MMRMMRMRRM
 
  
 
-*<h3>Expected Output:</h3>*
+**<h3>Expected Output:</h3>**
 
 1 3 N
 
