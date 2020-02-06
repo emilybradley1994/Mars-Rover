@@ -64,7 +64,7 @@ I have made the assumption that input will be of the form of two integers with a
  <br><br><br>
  **<h1>Instructions</h1>**
  
---Requires Python installed--
+-- Requires Python installed --
  
 <h3>To run the main code:</h3>
 <ol>
@@ -74,9 +74,12 @@ I have made the assumption that input will be of the form of two integers with a
  <li>When prompted with 'Position:', input initial position of rover using the structure of two integers (X- and Y-coordinate) and one of 'N', 'E', 'S', 'W', separated by a space</li>
  <li>When prompted with 'Please input directions for rover.', enter a sequence using the capital letters 'L', 'M' and 'R' with no space</li>
  </ol>
- 
- <h3>To run the test:</h3>
- Run at command line/terminal: test_rover.py
+ <br>
+<h3>To run the test:</h3>
+<ol>
+ <li>Extract files from MarsRover.zip</li>
+ <li>Run at command line/terminal: test_rover.py</li>
+ </ol>
  
   
 
