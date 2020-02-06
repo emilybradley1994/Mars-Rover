@@ -47,3 +47,23 @@ MMRMMRMRRM
 5 1 E
 
 
+
+
+**<h1>Design and assumptions</h1>**
+
+I have designed an OOP structure for this project, where all code can be found in the 'mars_rover_main.py' file, and all testing can be found in the 'test_rover.py' file.
+
+I have implemented a 'MarsRover' class which initializes the parameters 'X' (the X-coordinate of the rover's initial position), 'Y' (the Y-coordinate of the rover's initial position), 'heading' (the rover's initial heading - 'N', 'S', 'E' or 'W') and plateau (linking the rover to the instance of Plateau created prior, as to ensure that the rover remains within the confines of the plateau). This class contains all functions related to the Rover that is currently moving; its position, processing and running its movement, and printing the result of its movement.
+
+I have implemented a 'Plateau' class which sets the size of the plateau, and verifies that the rovers remains inside the plateau.
+
+I have made the assumption that input will be of the form of two integers with a space inbetween (for example, [3 4]) when setting the size of the plateau. I have also made the assumption that input for the rover's initial position will be of the form of two integers followed by one of 'N', 'S', 'E' or 'W', with a space inbetween (for example, [3 4 S]). 
+ 
+ Please include a brief explanation of your design and assumptions, along with your code, as well as detailed instructions to run your application.
+ 
+ 
+ **<h1>Instructions</h1>**
+ 
+ 
+
+
