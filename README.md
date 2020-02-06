@@ -47,7 +47,7 @@ MMRMMRMRRM
 5 1 E
 
 
-
+<br><br><br>
 
 **<h1>Design and assumptions</h1>**
 
@@ -57,13 +57,26 @@ I have implemented a 'MarsRover' class which initializes the parameters 'X' (the
 
 I have implemented a 'Plateau' class which sets the size of the plateau, and verifies that the rovers remains inside the plateau.
 
-I have made the assumption that input will be of the form of two integers with a space inbetween (for example, [3 4]) when setting the size of the plateau. I have also made the assumption that input for the rover's initial position will be of the form of two integers followed by one of 'N', 'S', 'E' or 'W', with a space inbetween (for example, [3 4 S]). 
+I have made the assumption that input will be of the form of two integers with a space inbetween (for example, [3 4]) when setting the size of the plateau. I have also made the assumption that input for the rover's initial position will be of the form of two integers followed by one of 'N', 'S', 'E' or 'W', with a space inbetween (for example, [3 4 S]). The input of directions for the rover is assumed to be a sequence using only the capital letters 'L', 'R' and 'M' without a space (for example [LMMRRLMMLMR])
  
  Please include a brief explanation of your design and assumptions, along with your code, as well as detailed instructions to run your application.
  
- 
+ <br><br><br>
  **<h1>Instructions</h1>**
  
+<h3>Requires Python</h3>
  
+<ol>
+ <li>Extract files from MarsRover.zip</li>
+ <li>Run at command line/terminal: python mars_rover_main.py</li>
+ <li>When prompted with 'Plateau size:', input size of plateau using structure **integer space integer** (as above)</li>
+ <li>When prompted with 'Position:', input initial position of rover using structure **X-coordinate Y-coordinate heading** (as above)</li>
+ <li>When prompted with 'Please input directions for rover.', enter a sequence using the capital letters 'L', 'M' and 'R' with no space (as above).</li>
+ </ol>
+ 
+  
+
+
+
 
 
