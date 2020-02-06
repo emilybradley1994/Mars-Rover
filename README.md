@@ -68,7 +68,7 @@ I have made the assumption that input will be of the form of two integers with a
  
 <h3>To run the main code:</h3>
 <ol>
- <li>Extract files from MarsRover.zip</li>
+ <li>Extract files from Mars-Rover-master.zip</li>
  <li>Run at command line/terminal: python mars_rover_main.py</li>
  <li>When prompted with 'Plateau size:', input height and width of plateau using the structure of two integers separated by a space</li>
  <li>When prompted with 'Position:', input initial position of rover using the structure of two integers (X- and Y-coordinate) and one of 'N', 'E', 'S', 'W', separated by a space</li>
@@ -77,7 +77,7 @@ I have made the assumption that input will be of the form of two integers with a
  <br>
 <h3>To run the test:</h3>
 <ol>
- <li>Extract files from MarsRover.zip</li>
+ <li>Extract files from Mars-Rover-master.zip</li>
  <li>Run at command line/terminal: test_rover.py</li>
  </ol>
  
